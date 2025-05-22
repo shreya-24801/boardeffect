@@ -12,7 +12,7 @@ export default defineConfig({
   name: 'default',
   title: 'boardEffect',
 
-  projectId: process.env.SANITY_PROJECT_ID || '',
+  projectId: process.env.SANITY_PROJECT_ID || 'n2o8956d',
   dataset: process.env.SANITY_DATASET || 'development',
 
   plugins: [
