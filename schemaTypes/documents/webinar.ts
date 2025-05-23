@@ -21,6 +21,11 @@ export default {
       },
     },
     {
+      name: 'description',
+      title: 'Description',
+      type: 'text',
+    },
+    {
       name: 'publishedAt',
       title: 'Published At',
       type: 'datetime',
@@ -34,6 +39,12 @@ export default {
       name: 'videoUrl',
       title: 'Video URL',
       type: 'url',
+    },
+    {
+      name: 'videoDuration',
+      title: 'Video Duration',
+      type: 'string',
+      description: 'Format: HH:MM:SS',
     },
     {
       name: 'body',
