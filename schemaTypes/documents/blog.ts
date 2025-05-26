@@ -18,9 +18,14 @@ export default {
       },
     },
     {
-      name: 'publishedAt',
+      name: 'article_published_date',
       type: 'datetime',
-      title: 'Published At',
+      title: 'Published Date',
+    },
+    {
+      name: 'article_modified_date',
+      type: 'datetime',
+      title: 'Modified Date',
     },
     {
       name: 'body',

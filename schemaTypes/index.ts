@@ -14,11 +14,13 @@ import whitepapers from "./documents/whitepapers";
 import whitepaper from "./documents/whitepaper";
 import webinars from "./documents/webinars";
 import webinar from "./documents/webinar";
+import blogs from "./documents/blogs";
 
 
 export const schemaTypes = [
   // Documents
   page,
+  blogs,
   blog,
   whitepapers,
   whitepaper,

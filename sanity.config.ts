@@ -26,7 +26,7 @@ export default defineConfig({
         {id: 'en-uk', title: 'English (UK)'},
         {id: 'en-au', title: 'English (Australia)'},
       ],
-      schemaTypes: ['page', 'whitepapers', 'whitepaper', 'webinars', 'webinar'],
+      schemaTypes: ['page', 'whitepapers', 'whitepaper', 'webinars', 'webinar', 'blogs'],
     })
 ],
 

@@ -14,7 +14,7 @@ export default {
     select: {
       firstItem: 'items.0'
     },
-    prepare({ firstItem }) {
+    prepare({ firstItem }: { firstItem: any }) {
       let title = 'Column Block';
 
       // Try to pick a meaningful preview value based on known types
