@@ -10,12 +10,8 @@ export default {
     },
     {
       name: 'slug',
-      type: 'slug',
+      type: 'string',
       title: 'Slug',
-      options: {
-        source: 'title',
-        maxLength: 96,
-      },
     },
     {
       name: 'article_published_date',

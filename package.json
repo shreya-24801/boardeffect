@@ -17,12 +17,12 @@
   "dependencies": {
     "@sanity/color-input": "^4.0.3",
     "@sanity/document-internationalization": "^3.3.1",
-    "@sanity/vision": "^3.88.3",
+    "@sanity/vision": "^3.90.0",
     "fs": "^0.0.1-security",
     "html-to-json-parser": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sanity": "^3.89.0",
+    "sanity": "^3.90.0",
     "shortcode-parser": "^0.0.1",
     "styled-components": "^6.1.15",
     "xml2js": "^0.6.2"
