@@ -53,6 +53,22 @@ export default {
       ]
     },
     {
+      name: 'previous_post',
+      type: 'object',
+      fields: [
+        { name: 'title', type: 'string' },
+        { name: 'slug', type: 'string' }
+      ],
+    },
+    {
+      name: 'next_post',
+      type: 'object',
+      fields: [
+        { name: 'title', type: 'string' },
+        { name: 'slug', type: 'string' }
+      ],
+    },
+    {
       name: 'author_name',
       type: 'string',
       title: 'Author Name',
